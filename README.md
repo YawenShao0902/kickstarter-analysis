@@ -21,6 +21,7 @@ Filter the "Parent Category" to show only the data for "theater."Sort the campai
  
 Create a line chart from the pivot table to visualize the relationship between outcomes and launch month.
 ![Theater Outcomes Based on Launch Date](https://github.com/YawenShao0902/kickstarter-analysis/blob/main/resources/Theater_Outcomes_vs_Launch.png)
+
 For the second analysis, “Theater Outcomes by Launch Date”,I created a new form and grabbed some information out of the KickStarter sheet. 
 In the new sheet, create the following columns to hold the data:“Goal”, ”Number Successful”, “Number Failed”, “Number Canceled”, “Total Projects”, ”Total Projects”, ”Percentage Successful”, ”Percentage Failed”, ”Percentage Canceled”.
 In the “Goal” column, create the following dollar-amount ranges so projects can be grouped based on their goal amount.
