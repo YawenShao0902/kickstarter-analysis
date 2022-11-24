@@ -13,24 +13,23 @@ I have two analyses for her, one is “Theater Outcomes by Launch Date”, and a
 For the first analysis, “Theater Outcomes by Launch Date”, I did these steps to create organized pivotable and chart to make it more visual able
 
 As the assignment required, I am using [Module 1 Challenge](https://courses.bootcampspot.com/courses/2638/assignments/45020?module_item_id=835330) as reference. I Create a pivot table from the KickStarter worksheet (the raw data), and place the pivot table in a new sheet.
-Label the sheet "Theater Outcomes by Launch Date."
-Filter the pivot table based on "Parent Category" and "Years."
-Place the appropriate pivot table fields in the columns, rows, and values.
-Filter the column labels to show only "successful," "failed," and "canceled."
-Filter the "Parent Category" to show only the data for "theater."Sort the campaign outcomes in descending order so "successful" is first.
- 
-Create a line chart from the pivot table to visualize the relationship between outcomes and launch month.
+* Label the sheet "Theater Outcomes by Launch Date."
+* Filter the pivot table based on "Parent Category" and "Years."
+* Place the appropriate pivot table fields in the columns, rows, and values.
+* Filter the column labels to show only "successful," "failed," and "canceled."
+* Filter the "Parent Category" to show only the data for "theater."Sort the campaign outcomes in descending order so "successful" is first.
+* Create a line chart from the pivot table to visualize the relationship between outcomes and launch month.
 ![Theater Outcomes Based on Launch Date](https://github.com/YawenShao0902/kickstarter-analysis/blob/main/resources/Theater_Outcomes_vs_Launch.png)
 
 For the second analysis, “Theater Outcomes by Launch Date”,I created a new form and grabbed some information out of the KickStarter sheet. 
-In the new sheet, create the following columns to hold the data:“Goal”, ”Number Successful”, “Number Failed”, “Number Canceled”, “Total Projects”, ”Total Projects”, ”Percentage Successful”, ”Percentage Failed”, ”Percentage Canceled”.
-In the “Goal” column, create the following dollar-amount ranges so projects can be grouped based on their goal amount.
+* In the new sheet, create the following columns to hold the data:“Goal”, ”Number Successful”, “Number Failed”, “Number Canceled”, “Total Projects”, ”Total Projects”, ”Percentage Successful”, ”Percentage Failed”, ”Percentage Canceled”.
+* In the “Goal” column, create the following dollar-amount ranges so projects can be grouped based on their goal amount.
  
-Use COUNTIFS() functions to populate the "Number Successful," "Number Failed," and "Number Canceled" columns by filtering on the Kickstarter "outcome" column, on the "goal" amount column using the ranges created in Step 3, and on the "Subcategory" column using "plays" as the criteria.
-Use the SUM() function to populate the "Total Projects" column with the number of successful, failed, and canceled projects for each row.
-Calculate the percentage of successful, failed, and canceled projects for each row.
+* Use COUNTIFS() functions to populate the "Number Successful," "Number Failed," and "Number Canceled" columns by filtering on the Kickstarter "outcome" column, on the "goal" amount column using the ranges created in Step 3, and on the "Subcategory" column using "plays" as the criteria.
+* Use the SUM() function to populate the "Total Projects" column with the number of successful, failed, and canceled projects for each row.
+* Calculate the percentage of successful, failed, and canceled projects for each row.
  
-Create a line chart titled "Outcomes Based on Goal" to visualize the relationship between the goal-amount ranges on the x-axis and the percentage of successful, failed, or canceled projects on the y-axis.
+* Create a line chart titled "Outcomes Based on Goal" to visualize the relationship between the goal-amount ranges on the x-axis and the percentage of successful, failed, or canceled projects on the y-axis.
 ![Outcomes_vs_Goals](https://github.com/YawenShao0902/kickstarter-analysis/blob/main/resources/Outcomes_vs_Goals.png)
  
 ### Challenges or difficulties 
